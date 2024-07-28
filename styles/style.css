@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+/* HEADER */
+header {
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    margin-top: 24px;
+    margin-right: 80px;
+    margin-bottom: 24px;
+    margin-left: 40px;
+    width: 20%;
+}
+
+#menu {
+    display: flex;
+    align-self: auto;
+    gap: 30px;
+}
+
+
+#menu a{
+    color: var(--white);
+    font-family: var(--font-subtitle);
+    text-decoration: none;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: var(--font-text-medium);
+    line-height: normal;
+}
+
+#menu a:hover{
+    color: var(--blue);
+}
+
+/* BODY */
+body {
+    background-color: var(--black);
+    margin: 0px;
+}
+
+/* SECTION 1 - BANNER */
+
+#banner img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* #banner {
+    position: relative;
+    background: none;
+}
+
+#banner img{
+    width: 100%;
+    filter: opacity(40%);
+    position: absolute;
+}
+
+#banner-texts {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 50;
+    left: 30%;
+    top: 100px;
+}
+
+#banner-title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: var(--white);
+    font-family: var(--font-title);
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#banner-description {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: var(--white);
+    font-family: var(--font-subtitle);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} */
+
+/* SECTION 2 - ABOUT ME */
+#about-me {
+    display: block;
+    color: var(--white);
+}
+
+#presentation {
+    display: flex;
+    gap: 24px;
+    padding: 0px 240px;
+}
+
+.section-title {
+    font-family: var(--font-title);
+    color: var(--white);
+    font-size: 2.75rem;
+    display: flex;
+    justify-content: center;
+}
+
+#about-me-subtitle {
+    font-family: var(--font-subtitle);
+    font-size: 2rem;
+    display: flex;
+}
+
+.section-text {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#buttoms {
+    display: flex;
+    gap: 16px;
+}
+
+.cta {
+    display: flex;
+    width: 218px;
+    height: 48px;
+    padding: 20px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+    font-family: var(--font-title);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cta:hover {
+    background-color: #267fbb;
+}
+
+#github-logo1 {
+    width: 48px;
+    height: 48px;
+}
+
+#github-logo1:hover {
+    transform: scale(1.05);
+}
+
+#linkedin-logo1 {
+    width: 48px;
+    height: 48px;
+}
+
+#linkedin-logo1:hover {
+    transform: scale(1.05);
+}
+
+
+/* SECTION 2 - SKILLS */
+#skills {
+    display: block;
+    color: var(--white);
+}
+
+.technology p {
+    margin: 8px;
+}
+
+.section-subtitle {
+    font-family: var(--font-title);
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    padding: 0px 240px;
+}
+
+#section-content {
+    display: flex;
+    gap: 24px;
+    padding: 0px 240px;
+}
+
+#soft-skills-title {
+    color: var(--blue);
+    font-family: var(--font-subtitle);
+    font-size: 1.5rem;
+}
+
+#skills-list {
+    display: flex;
+    gap: 64px;
+    font-family: var(--font-text);
+    line-height: 2;
+    list-style-image: url('../assets/images/icons/caret.png');
+}
+
+ul {
+    padding-inline-start: 16px;
+}
+
+li {
+    align-items: center;
+}
+
+#techs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 24px;
+    margin-right: 4.5%;
+    margin-left: 5.5%;
+
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    font-family: var(--font-text);
+}
+
+#techs-row1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+#techs-row1 img:hover {
+    transform: scale(1.05);
+}
+
+#techs-row1 p {
+    font-size: 0.9rem;
+}
+
+#techs-row2 img:hover {
+    transform: scale(1.05);
+}
+
+#techs-row2 p {
+    font-size: 0.9rem;
+}
+
+#techs-row2 {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+/* SECTION 3 - SERVICES */
+#services-cards {
+    padding: 0px 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#services-cards img {
+    max-width: 33%;
+}
+
+#services-cards img:hover {
+    transform: scale(1.02);
+}
+
+/* SECTION 4 - CONTACT */
+#contact {
+    color: var(--white);
+    font-family: var(--font-text);
+}
+
+#contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0px;
+}
+
+.contact-details p {
+    margin: 0;
+}
+
+#email-whatsapp {
+    gap: 12px;
+}
+
+#social {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+#social h4 {
+    color: var(--blue);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#social img {
+    width: 40px;
+}
+
+#social img:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    font-family: var(--font-text);
+    font-size: 0.75rem;
+    gap: 8px;
+    align-items: center;
+    margin: 60px 0px 24px 0px;
+}
+
+footer p {
+   margin: 0;
+}
