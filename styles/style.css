@@ -154,8 +154,13 @@ body {
     text-transform: uppercase;
 }
 
+a {
+    text-decoration: none;
+}
+
 .cta:hover {
     background-color: #267fbb;
+    cursor: pointer;
 }
 
 #github-logo1 {
