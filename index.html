@@ -114,25 +114,24 @@
             <form action="https://api.staticforms.xyz/submit" method="post">
                 <div class="form-items">
                     <label>Nome:</label>
-                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
                 </div>
     
                 <div class="form-items">
                     <label>E-mail:</label>
-                    <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off">
+                    <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
                 </div>
                 
                 <div class="form-items">
                     <label>Mensagem:</label>
-                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off"></textarea>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off" required></textarea>
                 </div>
     
                 <button type="submit" class="cta">Enviar</button>
     
                 <input type="hidden" name="accessKey" value="2bcf4443-9c1f-4de4-9666-bc7c82e0fccf">
-                <input type="hidden" name="redirectTo" value="obrigado.html">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
 
-                <a href="obrigado.html"><button>Pegar link</button></a>
             </form>
         </div>
     </section>
