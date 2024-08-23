@@ -373,16 +373,18 @@ form {
     display: flex;
     gap: 16px;
     align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 #social h4 {
     color: var(--blue);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 #social img {
-    width: 40px;
+    width: 32px;
 }
 
 #social img:hover {
