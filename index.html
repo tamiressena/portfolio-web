@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
+    
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/vars.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
@@ -13,7 +14,7 @@
 </head>
 <body>
     <header>
-        <img id="logo" src="assets/images/logo.png" alt="Logo escrito Tamires Sena, UX & Dev">
+        <img id="logo" src="assets/images/logo.png" alt="Tamires Sena, UX & Dev">
         <nav id="menu">
             <a href="#">Início</a>
             <a href="#about-me-title">Sobre mim</a>
@@ -107,23 +108,30 @@
 
     <section id="contact">
         <h2 class="section-title">Entre em contato</h2>
-        <div id="contact-content">
-            <p>Você pode entrar em contato pelos meios abaixo:</p>
-            <div id="email-whatsapp">
-                <div class="contact-details">
-                    <img src="assets/images/icons/email.png" alt="Informações de e-mail">
-                    <p>E-mail: tamires.s.afonso@gmail.com</p>
+        <p>Responderei o mais rápido possível!</p>
+
+        <div id="form">            
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <div class="form-items">
+                    <label>Nome:</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
                 </div>
-                <div class="contact-details">
-                    <img src="assets/images/icons/whatsapp.png" alt="Número de whatsapp">
-                    <p>Whatsapp: (19) 99357-3656</p>
+    
+                <div class="form-items">
+                    <label>E-mail:</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off">
                 </div>
-            </div>
-            <div id="social">
-                <h4>Redes sociais:</h4>
-                <a href="https://github.com/tamiressena" target="_blank"><img src="assets/images/icons/github.svg" alt="Acessar Github"></a>
-                <a href="https://www.linkedin.com/in/tamiressena/" target="_blank"><img src="assets/images/icons/linkedin.svg" alt="Acessar Linkedin"></a>
-            </div>
+                
+                <div class="form-items">
+                    <label>Mensagem:</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off"></textarea>
+                </div>
+    
+                <button type="submit" class="cta">Enviar</button>
+    
+                <input type="hidden" name="accessKey" value="2bcf4443-9c1f-4de4-9666-bc7c82e0fccf">
+                <input type="hidden" name="redirectTo" value="obrigado.html">
+            </form>
         </div>
     </section>
 
