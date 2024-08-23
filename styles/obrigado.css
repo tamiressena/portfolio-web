@@ -28,7 +28,7 @@ img {
 
 #section-subtitle {
     font-family: var(--font-subtitle);
-    font-size: 2rem;
+    font-size: 1.75rem;
     display: flex;
 }
 
@@ -49,10 +49,13 @@ img {
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 #cta:hover {
     background-color: #267fbb;
     cursor: pointer;
+}
+
+a{
+    text-decoration: none;
 }
