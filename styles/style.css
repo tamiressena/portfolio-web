@@ -5,6 +5,12 @@ html {
     scroll-padding-top: 80px;
 }
 
+/* BODY */
+body {
+    background-color: var(--black);
+    margin: 0px;
+}
+
 /* HEADER */
 header {
     background-color: var(--black);
@@ -15,46 +21,40 @@ header {
     top: 0;
 }
 
-#logo {
-    margin-top: 24px;
-    margin-right: 80px;
-    margin-bottom: 24px;
-    margin-left: 40px;
-    width: 20%;
-}
+    #logo {
+        margin-top: 24px;
+        margin-right: 80px;
+        margin-bottom: 24px;
+        margin-left: 40px;
+        width: 20%;
+    }
 
-#menu {
-    display: flex;
-    align-self: auto;
-    gap: 30px;
-}
+    #menu {
+        display: flex;
+        align-self: auto;
+        gap: 30px;
+    }
 
 
-#menu a{
-    color: var(--white);
-    font-family: var(--font-subtitle);
-    text-decoration: none;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: var(--font-text-medium);
-    line-height: normal;
-}
+        #menu a{
+            color: var(--white);
+            font-family: var(--font-subtitle);
+            text-decoration: none;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: var(--font-text-medium);
+            line-height: normal;
+        }
 
-#menu a:hover{
-    color: var(--blue);
-}
-
-/* BODY */
-body {
-    background-color: var(--black);
-    margin: 0px;
-}
+            #menu a:hover{
+                color: var(--blue);
+            }
 
 /* SECTION 1 - BANNER */
 
 #banner img{
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -108,84 +108,87 @@ body {
     color: var(--white);
 }
 
-#presentation {
-    display: flex;
-    gap: 24px;
-    padding: 0px 240px;
-}
+    #presentation {
+        display: flex;
+        gap: 24px;
+        padding: 0 10%;
+    }
 
-.section-title {
-    font-family: var(--font-title);
-    color: var(--white);
-    font-size: 2.75rem;
-    display: flex;
-    justify-content: center;
-}
+    .section-title {
+        font-family: var(--font-title);
+        color: var(--white);
+        font-size: 2.75rem;
+        display: flex;
+        justify-content: center;
+    }
 
-#about-me-subtitle {
-    font-family: var(--font-subtitle);
-    font-size: 2rem;
-    display: flex;
-}
+    #about-me-subtitle {
+        font-family: var(--font-subtitle);
+        font-size: 2rem;
+        display: flex;
+    }
 
-.section-text {
-    font-family: var(--font-text);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-}
+    .section-text {
+        font-family: var(--font-text);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
 
-#buttoms {
-    display: flex;
-    gap: 16px;
-}
+    #buttoms {
+        display: flex;
+        gap: 16px;
+    }
 
-.cta {
-    display: flex;
-    width: 218px;
-    height: 48px;
-    padding: 20px 48px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background-color: var(--blue);
-    border: none;
-    color: var(--white);
-    font-family: var(--font-title);
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-}
+    .cta {
+        display: flex;
+        width: 218px;
+        height: 48px;
+        padding: 20px 48px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background-color: var(--blue);
+        border: none;
+        color: var(--white);
+        font-family: var(--font-title);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    
+        .cta:hover {
+            background-color: #267fbb;
+            cursor: pointer;
+        }
 
-a {
-    text-decoration: none;
-}
+    a {
+        text-decoration: none;
+    }
 
-.cta:hover {
-    background-color: #267fbb;
-    cursor: pointer;
-}
+    #github-logo1 {
+        width: 48px;
+        height: 48px;
+    }
 
-#github-logo1 {
-    width: 48px;
-    height: 48px;
-}
+        #github-logo1:hover {
+            transform: scale(1.05);
+        }
 
-#github-logo1:hover {
-    transform: scale(1.05);
-}
+    #linkedin-logo1 {
+        width: 48px;
+        height: 48px;
+    }
 
-#linkedin-logo1 {
-    width: 48px;
-    height: 48px;
-}
+        #linkedin-logo1:hover {
+            transform: scale(1.05);
+        }
 
-#linkedin-logo1:hover {
-    transform: scale(1.05);
-}
-
+    #about-me-image img {
+        height: 80%;
+    }
 
 /* SECTION 2 - SKILLS */
 #skills {
@@ -198,6 +201,7 @@ a {
 }
 
 .section-subtitle {
+    justify-content: center;
     font-family: var(--font-title);
     font-size: 2rem;
     text-transform: uppercase;
@@ -208,7 +212,7 @@ a {
 #section-content {
     display: flex;
     gap: 24px;
-    padding: 0px 240px;
+    padding: 0px 10%;
 }
 
 #soft-skills-title {
@@ -227,10 +231,6 @@ a {
 
 ul {
     padding-inline-start: 16px;
-}
-
-li {
-    align-items: center;
 }
 
 #techs {
@@ -257,31 +257,31 @@ li {
     justify-content: center;
 }
 
-#techs-row1 img:hover {
-    transform: scale(1.05);
-}
+    #techs-row1 img:hover {
+        transform: scale(1.05);
+    }
 
-#techs-row1 p {
-    font-size: 0.9rem;
-}
-
-#techs-row2 img:hover {
-    transform: scale(1.05);
-}
-
-#techs-row2 p {
-    font-size: 0.9rem;
-}
-
+    #techs-row1 p {
+        font-size: 0.9rem;
+    }
+    
 #techs-row2 {
     display: flex;
     gap: 60px;
     justify-content: center;
 }
 
+    #techs-row2 img:hover {
+        transform: scale(1.05);
+    }
+
+    #techs-row2 p {
+        font-size: 0.9rem;
+    }
+
 /* SECTION 3 - SERVICES */
 #services-cards {
-    padding: 0px 240px;
+    padding: 0px 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -405,4 +405,122 @@ footer {
 
 footer p {
    margin: 0;
+}
+
+@media screen and (max-width: 800px){
+  
+/* SECTION 1 - HEADER */
+    #menu {
+        display: none;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        padding: 20px;
+        width: 60%;
+    }
+
+/* SECTION 2 - ABOUT ME */
+#about-me {
+    display: block;
+}
+
+    #presentation {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 0 10%;
+    }
+
+        .section-title {
+            margin: 10% 0 0 0;
+            font-size: 2rem;
+        }
+
+        #about-me-subtitle {
+            font-size: 1.5rem;
+        }
+
+        #buttoms {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+            #social-buttoms {
+                display: flex;
+            }
+
+        #about-me-image img {
+            width: 100%;
+        }
+
+/* SECTION 2 - SKILLS */
+.section-subtitle {
+    font-size: 1.5rem;
+    margin: 10% 0 0 0;
+    padding: 0;
+}
+
+#section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0px 10%;
+}
+
+#skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-family: var(--font-text);
+    line-height: 2;
+    list-style-image: url('../assets/images/icons/caret.png');
+}
+
+/* SECTION 3 - SERVICES */
+#services-cards {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#services-cards img {
+    max-width: 100%;
+}
+
+#services-cards img:hover {
+    transform: none;
+}
+
+/* SECTION 4 - CONTACT */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 10%;
+}
+
+    .form-items {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 8px;
+    }
+
+    #form label {
+        font-size: 1rem;
+    }
+
+    #form input{
+        width: 270px;
+    }
+
+    #form textarea {
+        width: 270px;
+    }
 }
