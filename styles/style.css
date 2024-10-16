@@ -58,50 +58,6 @@ header {
     height: auto;
 }
 
-/* #banner {
-    position: relative;
-    background: none;
-}
-
-#banner img{
-    width: 100%;
-    filter: opacity(40%);
-    position: absolute;
-}
-
-#banner-texts {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    gap: 50;
-    left: 30%;
-    top: 100px;
-}
-
-#banner-title {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    color: var(--white);
-    font-family: var(--font-title);
-    font-size: 3.25rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-#banner-description {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    color: var(--white);
-    font-family: var(--font-subtitle);
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-} */
-
 /* SECTION 2 - ABOUT ME */
 #about-me {
     display: block;
@@ -157,10 +113,11 @@ header {
         font-weight: 500;
         line-height: normal;
         text-transform: uppercase;
+        transition: 0.5s;
     }
     
         .cta:hover {
-            background-color: #267fbb;
+            background-color: var(--darkblue);
             cursor: pointer;
         }
 
@@ -201,12 +158,13 @@ header {
 }
 
 .section-subtitle {
+    display: flex;
     justify-content: center;
     font-family: var(--font-title);
     font-size: 2rem;
     text-transform: uppercase;
-    display: flex;
     padding: 0px 240px;
+    color: var(--white);
 }
 
 #section-content {
@@ -280,7 +238,7 @@ ul {
     }
 
 /* SECTION 3 - SERVICES */
-#services-cards {
+/* #services-cards {
     padding: 0px 10%;
     display: flex;
     flex-wrap: wrap;
@@ -294,7 +252,106 @@ ul {
 
 #services-cards img:hover {
     transform: scale(1.02);
+} */
+
+/* SECTION 3 - PROJECTS */
+.projects-cards {
+    padding: 0px 10%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 4%;
+    color: white;
+    margin-bottom: 4%;
 }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        border-radius: 10px;
+        background-color: var(--darkgray);
+        width: 30%;
+        line-height: 1.5;
+        font-family: var(--font-text);
+        font-weight: 400;
+    }
+
+        .card-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            margin-top: 16px;
+            margin-bottom: 4px;
+        }
+
+        .project-categorie {
+            font-size: 1rem;
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: var(--blue);
+        }
+        .project-description {
+            font-size: 1rem;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .project-techs-image {
+            height: 26px;
+            margin: 0 2px 16px 2px;
+        }
+
+        .project-button {
+            display: flex;;
+            width: 100%;
+            height: 48px;
+            padding: 20px 48px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background-color: var(--blue);
+            border: none;
+            color: var(--white);
+            font-family: var(--font-title);
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            transition: 0.5s;
+        }
+
+            .project-button:hover {
+                background-color: var(--darkblue);
+                cursor: pointer;
+            }
+
+        .soon-button {
+            display: flex;;
+            width: 100%;
+            height: 48px;
+            padding: 20px 48px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background-color: var(--gray);
+            border: none;
+            color: var(--black);
+            font-family: var(--font-title);
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
 
 /* SECTION 4 - CONTACT */
 #contact {
@@ -407,6 +464,12 @@ footer p {
    margin: 0;
 }
 
+#rights-name {
+    color: var(--blue);
+}
+
+
+/* RESPONSIVIDADE MOBILE */
 @media screen and (max-width: 800px){
   
 /* SECTION 1 - HEADER */
@@ -481,8 +544,26 @@ footer p {
     list-style-image: url('../assets/images/icons/caret.png');
 }
 
+#techs-row1 img {
+    height: 90px;
+    gap: 50px;
+}
+
+    #techs-row1 img:hover {
+        transform: none;
+    }
+
+#techs-row2 img {
+    height: 90px;
+    gap: 50px;
+}
+
+    #techs-row2 img:hover {
+        transform: none;
+    }
+
 /* SECTION 3 - SERVICES */
-#services-cards {
+/* #services-cards {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -492,35 +573,28 @@ footer p {
     max-width: 100%;
 }
 
-#services-cards img:hover {
-    transform: none;
-}
+    #services-cards img:hover {
+        transform: none;
+    } */
 
-/* SECTION 4 - CONTACT */
-form {
+/* SECTION 3 - PROJECTS */
+.projects-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    padding: 0 10%;
 }
 
-    .form-items {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        gap: 8px;
+    .project {
+        width: 100%;
+        margin: 3% 0;
     }
 
-    #form label {
-        font-size: 1rem;
-    }
+/* SECTION 4 - CONTACT */
+#form input{
+    width: 270px;
+}
 
-    #form input{
-        width: 270px;
-    }
-
-    #form textarea {
-        width: 270px;
-    }
+#form textarea {
+    width: 270px;
+}
 }
