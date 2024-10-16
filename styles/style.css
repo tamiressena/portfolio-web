@@ -60,7 +60,8 @@ header {
 
 /* SECTION 2 - ABOUT ME */
 #about-me {
-    display: block;
+    display: flex;
+    flex-direction: column;
     color: var(--white);
 }
 
@@ -76,6 +77,7 @@ header {
         font-size: 2.75rem;
         display: flex;
         justify-content: center;
+        margin-top: 4%;
     }
 
     #about-me-subtitle {
@@ -143,6 +145,12 @@ header {
             transform: scale(1.05);
         }
 
+    #about-me-image {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
     #about-me-image img {
         height: 80%;
     }
@@ -196,7 +204,6 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     gap: 24px;
-    margin-right: 4.5%;
     margin-left: 5.5%;
 
 }
@@ -258,11 +265,9 @@ ul {
 .projects-cards {
     padding: 0px 10%;
     display: flex;
-    justify-content: center;
-    align-content: space-between;
-    gap: 4%;
+    justify-content: space-between;
     color: white;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
 }
 
     .project {
@@ -271,7 +276,7 @@ ul {
         padding: 16px;
         border-radius: 10px;
         background-color: var(--darkgray);
-        width: 30%;
+        width: 29.5%;
         line-height: 1.5;
         font-family: var(--font-text);
         font-weight: 400;
@@ -352,6 +357,20 @@ ul {
             text-transform: uppercase;
         }
 
+#portfolio-link {
+    padding: 0px 10%;
+    display: flex;
+    justify-content: right;
+    font-family: var(--font-text);
+    color: var(--blue);
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+a {
+    color: var(--blue);
+}
 
 /* SECTION 4 - CONTACT */
 #contact {
@@ -425,6 +444,31 @@ form {
     outline: 0;
     box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(192, 189, 189);
 }
+
+#form-button {
+    display: flex;;
+    width: 52.5vh;
+    height: 48px;
+    padding: 20px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+    font-family: var(--font-title);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#form-button:hover {
+        background-color: var(--darkblue);
+        cursor: pointer;
+    }
 
 #social {
     display: flex;
@@ -596,5 +640,9 @@ footer p {
 
 #form textarea {
     width: 270px;
+}
+
+#form-button {
+    width: 295px;
 }
 }
