@@ -10,25 +10,24 @@
     <link rel="stylesheet" href="styles/vars.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
-    <title>Tamires Sena | UX & Dev</title>
+    <title>Tamires Sena | UX Designer</title>
 </head>
 <body>
     <header>
-        <img id="logo" src="assets/images/logo.png" alt="Tamires Sena, UX & Dev">
+        <a id="logo" href="#"><img src="assets/images/logo1.png" alt="Tamires Sena, UX Design"></a>
         <nav id="menu">
             <a href="#">Início</a>
             <a href="#about-me-title">Sobre mim</a>
-            <!-- <a href="#services">Serviços</a> -->
             <a href="#projects">Projetos</a>
             <a href="#contact">Contatos</a>
         </nav>
     </header>
 
     <section id="banner">
-        <picture>
-            <source media="(max-width: 800px)" srcset="./assets/images/background/banner-mobile.png" type="image/png">
-            <img src="assets/images/banner.png" alt="Tamires Sena, UX Designer e Desenvolvedora Web">
-        </picture>
+        <div class="text-banner">
+                <h1>Tamires Sena</h1>
+                <span>Design <span class="texto-animado"></span></span>
+        </div>
     </section>
 
     <section id="about-me">
@@ -36,11 +35,12 @@
         <section id="presentation">
             <div id="about-me-text">
                 <h3 id="about-me-subtitle">Olá, eu sou a Tamires!</h3>
-                <p class="section-text">UX Designer com mais de 3 anos de experiência e Desenvolvedora Web com foco em desenvolvimento front-end. Possuo experiência em pesquisas, análises de dados, construção de layout para sites e aplicativos e desenvolvimento de landing pages.
+                <p class="section-text">Há mais de três anos trabalhando com corporações, organizações da sociedade civil e startups. Eu crio soluções inovadoras e centradas no usuário.
                 <br><br>
-                Atualmente, estou cursando Análise e Desenvolvimento de Sistemas com o objetivo de aprofundar meus conhecimentos técnicos  e propor soluções cada vez melhores e mais completas nos projetos em que atuo.</p><br>
+                Possuo experiência em pesquisa de usuário, testes de usabilidade, mediação de dinâmicas, análises de dados, arquitetura da informação e prototipação responsiva. Já trabalhei com produtos internos, produtos legado e e-commerces, para dispositivos desktop, mobile e aplicativos.
+                </p><br>
                 <div id="buttoms">
-                    <a href="https://rose-caron-3.tiiny.site/" target="_blank"><button class="cta">Download CV</button></a>
+                    <a href="https://tamires.linkyhost.site" target="_blank"><button class="cta">Download CV</button></a>
                     <div id="social-buttoms">
                         <a href="https://github.com/tamiressena" target="_blank"><img id="github-logo1" src="assets/images/icons/github.svg" alt="Logo do GitHub"></a>
                         <a href="https://www.linkedin.com/in/tamiressena/" target="_blank"><img id="linkedin-logo1" src="assets/images/icons/linkedin.svg" alt="Logo do Linkedin"></a>
@@ -48,196 +48,216 @@
                 </div>
             </div>
             <div id="about-me-image">
-                <img src="assets/images/profile.png" alt="Foto de perfil da Tamires Sena. Mulher morena, de cabelos curtos ondulados, usando um óculos de grau quadrado, com uma camiseta preta e colares prata.">
+                <img src="assets/images/profile.png" alt="Foto de perfil da Tamires Sena. Mulher morena, de cabelos curtos ondulados e óculos castanhos escuros, usando um óculos de grau octagonal, vestindo um moletom com capuz bege e uma jaqueta jeans cinza. Ao fundo há um riacho e pedras.">
             </div>
         </section>
             </div>
     </section>
 
-    <section id="skills">
-        <h3 class="section-subtitle">Habilidades</h3>
-        <div id="section-content">
-            <div id="section-text">
-                <p class="section-text">Possuo experiência nas seguintes tecnologias de desenvolvimento web: HTML5, CSS3, JavaScript e React. Além da plataforma Figma, utilizada no desenvolvimento dos layouts. Essas ferramentas me permitem criar e desenvolver sites atraentes, que chamem a atenção dos seus clientes, mas também eficientes e com boa usabilidade.</p>
-                <h4 id="soft-skills-title">Soft skills</h4>
-                <ul id="skills-list">
-                    <div id="column1">
-                        <li>Trabalho colaborativo</li>
-                        <li>Proatividade</li>
-                        <li>Comunicação</li>
-                    </div>
-                    <div id="column2">
-                        <li>Criatividade</li>
-                        <li>Flexibilidade</li>
-                        <li>Autodidatismo</li>
-                    </div>
-                </ul>
-            </div>
-            <div id="techs">
-                <div id="techs-row1">
-                    <div class="technology">
-                        <img src="assets/images/icons/html5.png" alt="Logo do HTML5">
-                        <p>HTML5</p>
-                    </div>
-                    <div class="technology">
-                        <img src="assets/images/icons/css3.png" alt="Logo do CSS3">
-                        <p>CCS3</p>
-                    </div>
-                    <div class="technology">
-                        <img src="assets/images/icons/figma.png" alt="Logo do Figma">
-                        <p>Figma</p>
-                    </div>
+    <section id="process">
+        <h3 class="section-subtitle">Processo de trabalho</h3>
+        <div id="process-description">
+            <img src="assets/images/double-diamond.png" alt="Estrutura da metodologia Double Diamond">
+            <p class="section-text">Eu aplico a metodologia <span class="highlight">Double Diamond</span> em praticamente todos os projetos no qual atuo. Acredito que pesquisas e testes são essenciais no desenvolvimento de um projeto de sucesso para os usuários. 
+                <br><br>    
+            Dos rápidos rascunhos, desenhados a mão, até os protótipos de alta fidelidade, essa metodologia me permite desenvolver as melhores soluções por meio de uma abordagem que coloca o usuário e os interesses de negócio no centro.</p>
+        </div>
+    </section>
+
+    <section id="tools">
+        <h3 class="section-subtitle">Ferramentas</h3>
+            <div id="technologies">
+                <div class="technology">
+                    <img src="assets/images/icons/figma.png" alt="Logo do Figma">
+                    <p>Figma</p>
                 </div>
-                <div id="techs-row2">
-                    <div class="technology">
-                        <img src="assets/images/icons/js.png" alt="Logo do JavaScript">
-                        <p>JavaScript</p>
+                <div class="technology">
+                    <img src="assets/images/icons/miro.png" alt="Logo do Miro">
+                    <p>Miro</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/icons/hotjar.png" alt="Logo do Hotjar">
+                    <p>Hotjar</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/icons/maze.png" alt="Logo do Maze">
+                    <p>Maze</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/icons/dovetail.png" alt="Logo do Dovetail">
+                    <p>Dovetail</p>
+                </div>
+                <div style="width: 84px;" class="technology">
+                    <img src="assets/images/icons/crazyegg.png" alt="Logo do Crazy Egg">
+                    <p>Crazy Egg</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/icons/html5.png" alt="Logo do HTML5">
+                    <p>HTML5</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/icons/css3.png" alt="Logo do CSS3">
+                    <p>CCS3</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/icons/js.png" alt="Logo do JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="technology">
+                    <img src="assets/images/icons/react.png" alt="Logo do React">
+                    <p>React</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="projects-cards">
+            <img class="project-image" src="assets/images/projects/zoom.png" alt="">
+            <div class="card-content">
+                <div class="card-header">
+                    <p class="project-title">Melhorando a visualização das imagens dos produtos</p>
+                    <p class="project-categorie">UI Design | Benchmarking</p>
+                </div>
+                <p class="project-description">Como redesenhei a funcionalidade de zoom nas imagens dos produtos, deixando-a funcional para o clientes e no padrão visual do site da Tok&Stok. Essa ferramenta permite aos usuários ampliar e examinar detalhes do produto antes de efetuar a compra e é especialmente útil para produtos que possuem características como texturas, estampas ou detalhes de design.</p>
+                <div class="tools-and-button">
+                    <div class="project-technologies">
+                        <img class="project-techs-image" src="assets/images/icons/figma.png" alt="Figma">
+                        <img class="project-techs-image" src="assets/images/icons/miro.png" alt="Figma">
                     </div>
-                    <div class="technology">
-                        <img src="assets/images/icons/react.png" alt="Logo do React">
-                        <p>React</p>
+                    <a href="projetos/melhorando-a-visualizacao-das-imagens-dos-produtos.html" target="_self">
+                        <button class="project-button">
+                            Ver case
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-cards">
+            <img class="project-image" src="assets/images/projects/instagram-stories.png" alt="">
+            <div class="card-content">
+                <div class="card-header">
+                    <p class="project-title">Quando fui responsável pela criação dos stories divulgados no perfil oficial da Tok&Stok no Instagram</p>
+                    <p class="project-categorie">UI Design | Social Media</p>
+                </div>
+                <p class="project-description">Tive a oportunidade de, por duas semanas, ser a responsável pela criação das artes e postagem dos stories no perfil oficial da Tok&Stok. Os conteúdos foram elaborados de acordo com as campanhas e os produtos que o time de Marketing e negócios escolheram para dar visibilidade aos produtos. Entre as campanhas tivemos mês do consumidor, mês da mulher e páscoa.</p>
+                <div class="tools-and-button">
+                    <div class="project-technologies">
+                        <img class="project-techs-image" src="assets/images/icons/photoshop.png" alt="Logo Miro">
+                        <img class="project-techs-image" src="assets/images/icons/adobexd.png" alt="Logo Dovetail">
+                        <img class="project-techs-image" src="assets/images/icons/figma.png" alt="Logo Figma">
                     </div>
+                    <a href="projetos/quando-fui-responsavel-pela-criacao-dos-stories-divulgados-no-perfil-oficial-da-tokstok-no-instagram.html" target="_self">
+                        <button class="project-button">
+                            Ver case
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-cards">
+            <img class="project-image" src="assets/images/projects/estoque.png" alt="">
+            <div class="card-content">
+                <div class="card-header">
+                    <p class="project-title">Descrição dos tipos de estoque</p>
+                    <p class="project-categorie">UX Design | UX Research | UX Writing</p>
+                </div>
+                <p class="project-description">Como revisitamos os tooltips de descrição dos tipos de estoque existentes nos sistemas internos da Tok&Stok e facilitamos o processo de entedimento por parte do time comercial. Os estoques são identificados por suas siglas, porém, para acelerar a curva de aprendizado de novos colaboradores e melhorar o entendimento geral, foram incluídos tooltips com o significado de cada sigla.</p>
+                <div class="tools-and-button">
+                    <div class="project-technologies">
+                        <img class="project-techs-image" src="assets/images/icons/figma.png" alt="Logo Figma">
+                        <img class="project-techs-image" src="assets/images/icons/miro.png" alt="Logo Miro">
+                        <img class="project-techs-image" src="assets/images/icons/dovetail.png" alt="Logo Dovetail">
+                    </div>
+                    <a href="projetos/descricao-dos-tipos-de-estoque.html" target="_self">
+                        <button class="project-button">
+                            Ver case
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="projects-cards">
+            <img class="project-image" src="assets/images/projects/entrega.png" alt="">
+            <div class="card-content">
+                <div class="card-header">
+                    <p class="project-title">Confirmação de data de entrega</p>
+                    <p class="project-categorie">UX Design | UI Design | UX Research</p>
+                </div>
+                <p class="project-description">Como permitimos que os fornecedores da Tok&Stok declarem ativamente se vão ou não conseguir realizar as entregas na data agendada, desonerando o time comercial de uma gestão manual feita por e-mail.</p>
+                <div class="tools-and-button">
+                    <div class="project-technologies">
+                        <img class="project-techs-image" src="assets/images/icons/figma.png" alt="Logo Figma">
+                        <img class="project-techs-image" src="assets/images/icons/miro.png" alt="Logo Miro">
+                        <img class="project-techs-image" src="assets/images/icons/dovetail.png" alt="Logo Dovetail">
+                        <img class="project-techs-image" src="assets/images/icons/maze.png" alt="Logo Dovetail">
+                    </div>
+                    <a href="projetos/confirmacao-de-data-de-entrega.html" target="_self">
+                        <button class="project-button">
+                            Ver case
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- <section id="services">
-        <h2 class="section-title">Serviços</h2>
+    <section id="articles-studies">
+        <h3 class="section-subtitle">Artigos e estudos</h3>
 
-        <div id="services-cards">
-            <img src="assets/images/services/card1.png" alt="Pesquisa com usuários">
-            <img src="assets/images/services/card2.png" alt="Layout para sites e aplicativos">
-            <img src="assets/images/services/card3.png" alt="Desenvolvimento de landing pages">
-        </div>
-    </section> -->
-
-    <section id="projects">
-        <h2 class="section-title">Projetos</h2>
-
-        <h3 class="section-subtitle">UX Design</h3>
-        <div class="projects-cards">
-            
-            <div class="project">
-                <img class="project-image" src="assets/images/projects/homepage.png" alt="">
-                <div class="card-content">
-                    <p class="project-title">Redesenho da home page do e-commerce da Tok&Stok</p>
-                    <p class="project-categorie">UI Design | UX Research | Design Gráfico</p>
-                    <p class="project-description">Como redesenhei os componentes da página inicial do e-commerce da Tok&Stok, deixando-a mais inspiracional e alinhada aos objetivos da companhia.</p>
-                    <div class="project-technologies">
-                        <img class="project-techs-image" src="assets/images/icons/figma.png" alt="Figma">
+        <div id="articles-cards">
+                <div class="articles-row">
+                    <div class="article-card">
+                        <img class="article-image" src="assets/images/studies/research.png" alt="">
+                            <p class="article-card-title">Realizando pesquisas com usuários: como se preparar e colocar a mão na massa</p>
+                            <p class="project-categorie">UX Research</p>
+                            <a href="https://medium.com/@tamiressena/realizando-pesquisas-com-usu%C3%A1rios-como-se-preparar-e-colocar-a-m%C3%A3o-na-massa-141f27bb9898" target="_blank">
+                                <button class="project-button">
+                                    Ver mais
+                                </button>
+                            </a>
                     </div>
-                    <a href="https://tamires-sena.notion.site/Redesenho-da-home-page-do-e-commerce-da-Tok-Stok-12186ae136b680358054e273864ddde6?pvs=4" target="_blank">
-                        <button class="project-button">
-                            Ver case
-                        </button>
-                    </a>
+                    <div class="article-card">
+                        <img class="article-image" src="assets/images/studies/hr.png" alt="">
+                            <p class="article-card-title">Minha experiência com pesquisas trabalhando no RH</p>
+                            <p class="project-categorie">UX Research</p>
+                            <a href="https://medium.com/@tamiressena/minha-experi%C3%AAncia-com-pesquisas-trabalhando-no-rh-5ddfee38d392" target="_blank">
+                                <button class="project-button">
+                                    Ver mais
+                                </button>
+                            </a>
+                    </div>
+                 </div>
+                
+                <div class="articles-row">
+                    <div class="article-card">
+                        <img class="article-image" src="assets/images/studies/sinappse.png" alt="">
+                            <p class="article-card-title">Sinappse: conectando psicólogos e pacientes, apesar das barreiras geográficas</p>
+                            <p class="project-categorie">UX Design</p>
+                            <a href="https://medium.com/@tamiressena/sinappse-conectando-psic%C3%B3logos-e-pacientes-apesar-das-barreiras-geogr%C3%A1ficas-a812a1b19ddd" target="_blank">
+                                <button class="project-button">
+                                    Ver mais
+                                </button>
+                            </a>
+                    </div>
+                    <div class="article-card">
+                        <img class="article-image" src="assets/images/studies/cats.png" alt="">
+                            <p class="article-card-title">Ajudando gatinhos a encontrarem um lar, utilizando UX Design</p>
+                            <p class="project-categorie">UX Design</p>
+                            <a href="https://medium.com/@tamiressena/ajudando-gatinhos-a-encontrarem-um-lar-utilizando-ux-design-cf8f30f79c36" target="_blank">
+                                <button class="project-button">
+                                    Ver mais
+                                </button>
+                            </a>
+                    </div>
                 </div>
             </div>
-
-            <div class="project">
-                <img class="project-image" src="assets/images/projects/zoom.png" alt="">
-                <div class="card-content">
-                    <p class="project-title">Zoom nos produtos</p>
-                    <p class="project-categorie">UI Design | Benchmarking</p>
-                    <p class="project-description">Como redesenhei a funcionalidade de zoom nas imagens dos produtos, deixando-a funcional para o clientes e no padrão visual do site da Tok&Stok.</p>
-                    <div class="project-technologies">
-                        <img class="project-techs-image" src="assets/images/icons/figma.png" alt="Figma">
-                    </div>
-                    <a href="https://tamires-sena.notion.site/Melhorando-a-visualiza-o-das-imagens-dos-produtos-12086ae136b680818da5f0906a108b36?pvs=4" target="_blank">
-                        <button class="project-button">
-                            Ver case
-                        </button>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="project">
-                <img class="project-image" src="assets/images/projects/entrega.png" alt="">
-                <div class="card-content">
-                    <p class="project-title">Confirmação de data de entrega</p>
-                    <p class="project-categorie">UX Design | UI Design | UX Research</p>
-                    <p class="project-description">Como permitimos que os fornecedores da Tok&Stok declarem ativamente se vão ou não conseguir realizar as entregas na data agendada, desonerando o time comercial de uma atividade manual.</p>
-                    <div class="project-technologies">
-                        <img class="project-techs-image" src="assets/images/icons/figma.png" alt="">
-                    </div>
-                    <a href="https://tamires-sena.notion.site/Confirma-o-de-data-de-entrega-957526308808479c85a901685a1dcc19?pvs=4">
-                        <button class="project-button">
-                            Ver case
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div id="portfolio-link">
-            <a href="https://tamires-sena.notion.site/Ol-eu-sou-a-Tamires-936f8f7fbc9d41aa916f65412b253224?pvs=4">Ver mais cases</a>
-        </div>
-
-        <h3 class="section-subtitle">Desenvolvimento Web</h3>
-        <div class="projects-cards">
-
-            <div class="project">
-                <img class="project-image" src="assets/images/projects/solar-system.png" alt="">
-                <div class="card-content">
-                    <p class="project-title">Sistema Solar</p>
-                    <p class="project-categorie">Estudo</p>
-                    <p class="project-description">Calcule a massa de um objeto ou pessoa em outros planetas do sistema solar ou na lua. Desenvolvido para dispositivos desktop.
-                    </p>
-                    <div class="project-technologies">
-                        <img class="project-techs-image" src="assets/images/icons/html5.png" alt="HTML5">
-                        <img class="project-techs-image" src="assets/images/icons/css3.png" alt="CSS3">
-                        <img class="project-techs-image" src="assets/images/icons/js.png" alt="JavaScript">
-                        <img class="project-techs-image" src="assets/images/icons/vercel.png" alt="Vercel">
-                    </div>
-                    <a href="https://solar-sistem-sigma.vercel.app/" target="_blank">
-                        <button class="project-button">
-                            Ver site
-                        </button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="project">
-                <img class="project-image" src="assets/images/projects/countries-data.png" alt="">
-                <div class="card-content">
-                    <p class="project-title">Visualização de dados</p>
-                    <p class="project-categorie">Estudo</p>
-                    <p class="project-description">Verifique quais são os 10 países mais populosos e os 10 idiomas mais falados em todo o mundo. Desenvolvido para dispositivos desktop.
-                    </p>
-                    <div class="project-technologies">
-                        <img class="project-techs-image" src="assets/images/icons/html5.png" alt="HTML5">
-                        <img class="project-techs-image" src="assets/images/icons/css3.png" alt="CSS3">
-                        <img class="project-techs-image" src="assets/images/icons/js.png" alt="JavaScript">
-                        <img class="project-techs-image" src="assets/images/icons/vercel.png" alt="Vercel">
-                    </div>
-                    <a href="https://countries-data-visualization-umber.vercel.app/" target="_blank">
-                        <button class="project-button">
-                            Ver site
-                        </button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="project">
-                <img class="project-image" src="assets/images/projects/countries-list.png" alt="">
-                <div class="card-content">
-                    <p class="project-title">Lista de países</p>
-                    <p class="project-categorie">Estudo</p>
-                    <p class="project-description">Filtre os países do mundo pela letra inicial ou por alguma letra que faz parte do nome. Desenvolvido para dispositivos desktop.</p>
-                    <div class="project-technologies">
-                        <img class="project-techs-image" src="assets/images/icons/html5.png" alt="HTML5">
-                        <img class="project-techs-image" src="assets/images/icons/css3.png" alt="CSS3">
-                        <img class="project-techs-image" src="assets/images/icons/js.png" alt="JavaScript">
-                        <img class="project-techs-image" src="assets/images/icons/vercel.png" alt="Vercel">
-                    </div>
-                    <a href="https://filter-country-list.vercel.app/" target="_blank">
-                        <button class="project-button">
-                            Ver site
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
+          
+        
     </section>
 
     <section id="contact">
@@ -264,7 +284,9 @@
                 <button type="submit" id="form-button">Enviar</button>
     
                 <input type="hidden" name="accessKey" value="2bcf4443-9c1f-4de4-9666-bc7c82e0fccf">
-                <input type="hidden" name="redirectTo" value="https://portfolio-web-ruddy-six.vercel.app/obrigado.html">
+                <input type="hidden" name="redirectTo" value="https://www.tamires.tech/obrigado.html">
+
+                <a href="obrigado.html">Obrigado</a>
 
             </form>
         </div>
@@ -278,7 +300,9 @@
 
     <footer>
         <p>Todos os direitos reservados</p>
-        <p>Desenvolvido por <span id="rights-name">Tamires Sena</span></p>
+        <p>Desenvolvido por <span class="highlight">Tamires Sena</span></p>
     </footer>
+
+    <script src="/assets/js/textAnimation.js"></script>
 </body>
 </html>

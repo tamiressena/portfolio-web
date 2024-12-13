@@ -2,15 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 :root {
-    --white: #FDFFFC;
-    --gray: #C2BEBE;
-    --blue: #359ee5;
-    --darkblue: #0076c5;
+    --white: #FBFBF2;
+    --gray: #EBD8D0;
+    /* --blue: #020070; */
+    /* --blue: #359ee5; */
+    --blue: #fd761b;
+    --darkblue: #f47709;
+    /* --darkblue: #0076c5; */
     --black: #080F0F;
     --darkgray: #1c2128d3;
 
     --font-title: 'Poppins', sans-serif;
     --font-subtitle: 'Poppins', sans-serif;
-    --font-text: 'Roboto', sans-serif;
+    --font-text: 'Source Serif 3', sans-serif;
 }

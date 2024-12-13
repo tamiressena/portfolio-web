@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/vars.css">
+    <link rel="stylesheet" href="../styles/cases.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+    <title>Tamires Sena | UX Designer</title>
+</head>
+<body>
+    <header>
+        <a id="logo" href="../index.html"><img src="../assets/images/logo1.png" alt="Tamires Sena, UX Design"></a>
+        <nav id="menu">
+            <a href="../index.html">Início</a>
+            <a href="../projetos.html">Projetos</a>
+        </nav>
+    </header>
+
+        <h2 class="case-title">Melhorando a visualização das imagens dos produtos</h2>
+        <p class="project-categorie">UI Design | Benchmarking</p>
+
+        <div class="case-section">
+            <p>Tok&Stok | Jun. 2024</p>
+            <h3 class="case-section-title">Contexto</h3>
+            <p>A funcionalidade de zoom nas imagens dos produtos é essencial para a decisão de compra dos clientes, pois, desta forma, eles conseguem visualizar mais detalhes dos produtos desejados, facilitando a decisão de compra e reduzindo a possibilidade de frustração ao receber o produto e verificar que ele não é o que parecia ser. Percebe-se inclusive que inúmeros players do ramo do varejo também possuem essa funcionalidade.</p>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Impactos</h3>
+            <p>A funcionalidade existente no site, cumpria sua função desejada, porém <span class="highlight">não correspondia à identidade visual do site</span>, podendo quebrar a experiência de navegação do cliente e certa estranheza visual. Um outro ponto importante, é que ao abrir a funcionalidade de zoom, o cliente deixava de ver informações importantes e relevantes para a decisão de compra, como preço do produto e outras variedades de cor.</p>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Problema</h3>
+            <div class="case-section-content problem-box">
+                <img class="icons" src="../assets/images/icons/warning.png" alt="">
+                <p>Melhorar a experiência do cliente ao dar zoom nas imagens de produto, e alinhar a funcionalidade à identidade visual do site, evitando a estranheza visual dos clientes.</p>
+            </div>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Solução</h3>
+            <div class="case-section-content solution-box">
+                <img class="icons" src="../assets/images/icons/idea.png" alt="Emoji de lâmpada">
+                <ul>
+                    <li>Ampliar a área de visualização das imagens, para garantir que elas sejam maiores que as imagens apresentadas na página de produto.</li>
+                    <li>Garantir que o cliente continue visualizando as informações relevantes para a decisão de compra, como nome e preço do produto e variações de cor.</li>
+                    <li>Garantir que a funcionalidade siga a identidade visual do site.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Processo</h3>
+            <div class="case-section-content">
+                <h4>1. Avaliação do layout existente</h4>
+                <p>O primeiro passo foi analisar o layout existente, buscando encontrar seus pontos fortes e pontos fracos. </p>
+                <br>
+                <h5>Pontos fortes:</h5>
+                <ul>
+                    <li>Área grande para permitir um zoom elevado dos produtos;</li>
+                    <li>Botões indicativos para aumentar e diminuir o zoom, inclusive na versão mobile, indicando pro usuário que ações ele pode tomar. Permitir o zoom somente com o movimento de pinça, sem um indicador visual de ação, poderia induzir o cliente a imaginar que não seria possível realizar o zoom;</li>
+                    <li>Apresenta miniaturas das demais imagens disponíveis do produto;</li>
+                    <li>Ícone para fechar a visualização de zoom.</li>
+                </ul>
+                <br>
+                <h5>Pontos fracos:</h5>
+                <ul>
+                    <li>Cliente deixa de visualizar informações importantes do produto, como nome, preço, variações de cor e CTA de compra;</li>
+                    <li>Layout não está alinhado à identidade visual da Tok&Stok, tendo os cantos não arredondados, botões de zoom e de fechar o modal não condizentes com a biblioteca de ícones utilizada.</li>
+                </ul>
+                <br>
+                <p>O layout era o abaixo, na versão desktop e mobile:</p>
+                <div class="images-desk-mobile">
+                    <img src="../assets/images/cases/zoom/olddesk.webp" alt="">
+                    <img src="../assets/images/cases/zoom/oldmobile.webp" alt="">
+                </div>
+                <br>
+
+                <h4>2. Benchmarking com outros players</h4>
+                <p>O próximo passo foi realizar um benchmarking com outros players do varejo, tanto de móveis, quanto de outros setores como vestuário, por exemplo.</p>
+                <br>
+
+                <h4>3. Ideação da versão redesenhada</h4>
+                <p>Após levantar os problemas na versão atual e realizar benchmarkings, verificando práticas comuns no mercado, parti para a etapa de ideação, na qual costumo utilizar a ferramenta Miro.</p>
+                 <p>Nesta etapa faço diversos testes posicionando os componentes de diversas maneiras e verificando como eles se encaixam para construir a tela como um todo. É uma importante para levantar várias ideias e verificar quais funcionam melhor, para garantir uma decisão mais acertada.</p>
+                <br>
+
+                <h4>4. Solução final e prototipação</h4>
+                <p>Após as etapas anteriores, defini qual solução melhor atende aos requisitos levantados na definição da tarefa, e que se alinham ao design do site da Tok&Stok. Com a ideia definida, parti para a etapa de prototipação no Figma.</p>
+                <br>
+
+                <h5>Solução final:</h5>
+                <p>Página de produto:</p>
+                <p>A página de produto, na versão desktop, possui um zoom ao passar o mouse sobre a imagem, destacando a área em que o cursor está posicionado. Porém, a funcionalidade de zoom, abrindo um modal, que foi redesenhado nessa tarefa, permite aos usuários visualizarem os detalhes mais atentamente, podendo calibrar o nível de zoom desejado.</p>
+                <img class="images-desk" src="../assets/images/cases/zoom/zoompdp.webp" alt="">
+                <br> <br>
+
+                <p>Versão final da funcionalidade de zoom:</p>
+                <p>Como é possível observar, essa versão possui uma grande área em branco para expansão da imagem. Permite ao usuário visualizar as miniaturas das demais fotos do produto. E traz informações adicionais, como o nome do produto, preço (preço original, preço promocionado, opção de parcelamento), outras variedades e botão de adicionar ao carrinho. Dessa forma, ao abrir a funcionalidade, o cliente não precisa sair do fluxo de compra, não é necessário que ele abra o zoom e o feche para seguir com a compra. Ele pode avaliar as informações e adicionar o produto ao carrinho.</p>
+                <p>Na versão mobile, decidimos não incluir o botão de adicionar ao carrinho e as outras variáveis do produto, pois com ele, seria necessário reduzir a área de visualização do produto, o que afetaria o propósito da funcionalidade. Porém, mantivemos as demais informações do produto. Nesta versão optamos por manter as setas para troca de imagens, mesmo que elas também mudem com o deslizar do dedo, para a direita ou esquerda, e os botões de +zoom e -zoom, para indicar ao cliente que essas ações são possíveis. Assim, visualmente o cliente já sabe quais ações podem ser tomadas, e ele não precisa descobrir que para alterar as imagens é necessário deslizar o dedo ou utilizar o movimento de pinça para aplicar o zoom.</p>
+                <br>
+                
+                <div class="images-desk-mobile">
+                    <img src="../assets/images/cases/zoom/zoom1desk.webp" alt=" ">
+                    <img src="../assets/images/cases/zoom/zoom1mobile.webp" alt=" ">
+                </div>
+                <br>
+                
+                <div class="images-desk-mobile">
+                    <img src="../assets/images/cases/zoom/zoom2desk.webp" alt=" ">
+                    <img src="../assets/images/cases/zoom/zoom2mobile.webp" alt=" ">
+                </div>
+                <br>
+                
+                <div class="images-desk-mobile">
+                    <img src="../assets/images/cases/zoom/zoom3desk.webp" alt=" ">
+                    <img src="../assets/images/cases/zoom/zoom3mobile.webp" alt=" ">
+                </div>
+                <br>
+                
+            </div>
+        </div>
+
+
+
+</body>
+</html>

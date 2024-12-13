@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/vars.css">
+    <link rel="stylesheet" href="../styles/cases.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+    <title>Tamires Sena | UX Designer</title>
+</head>
+<body>
+    <header>
+        <a id="logo" href="../index.html"><img src="../assets/images/logo1.png" alt="Tamires Sena, UX Design"></a>
+        <nav id="menu">
+            <a href="../index.html">Início</a>
+            <a href="../projetos.html">Projetos</a>
+        </nav>
+    </header>
+
+        <h2 class="case-title">Confirmação de data de entrega</h2>
+        <p class="project-categorie">UX Design | UI Design | UX Research</p>
+
+        <div class="case-section">
+            <p>Tok&Stok | Jun. 2024</p>
+            <h3 class="case-section-title">Contexto</h3>
+            <p>Os pedidos de compra emitidos pela Tok&Stok são encaminhados aos fornecedores com uma data de entrega pré-definida, calculada sistematicamente considerando lead time de produção do fornecedor e tempo de entrega.
+            <br><br>
+            O time comercial, para garantir a melhor alocação dos recebidos no centro de distribuição e a melhor operação semanalmente entrava em contato, via e-mail, com os fornecedores que possuíam entregas agendadas para a semana vigente, para confirmar se as entregas seriam efetuadas. Dessa forma, eles conseguiam realocar outras entregas caso um agendamento fosse cancelado.
+            <br><br>
+            Porém, esse processo era totalmente manual, demandando muito tempo do time comercial em atividades operacionais.</p>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Impactos</h3>
+            <p>Todo o processo de confirmação manual gerava impactos tanto para a Tok&Stok, quanto para os fornecedores:</p>
+
+            <h4>Impactos para Tok&Stok</h4>
+            <ul>
+                <li>Não recebimento dos produtos na data agendada, caso algum fornecedor tivesse algum contratempo após a confirmação manual;</li>
+                <li>Não realocação de outra entrega no horário disponível, caso alguma entrega não fosse realizada;</li>
+                <li>Reagendamento manual do pedido não entregue, por parte do time comercial, que alinhava uma nova data com o fornecedor, via e-mail;</li>
+                <li>Possível impacto no abastecimento das lojas, uma vez que alguns produtos poderiam não ser entregues.</li>
+            </ul>
+
+            <h4>Impactos para o fornecedor</h4>
+            <ul>
+                <li>Reagendamento da entrega, podendo causar um acúmulo de produtos em seu estoque;</li>
+                <li>Impacto no OTIF (métrica que mede se o fornecedor foi capaz de entregar o produto esperado na quantidade pedida pelo cliente no local e tempo acordados);</li>
+                <li>Pagamento de multa de no-show (ao faltar com uma entrega o fornecedor sofre uma penalização financeira).</li>
+            </ul>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Problema</h3>
+            <div class="case-section-content problem-box">
+                <img class="icons" src="../assets/images/icons/warning.png" alt="">
+                <p>Como agilizar e otimizar o processo de confirmação dos agendamentos de entrega, reduzindo o tempo gasto pelo time comercial na realização dessa tarefa e garantindo uma maior eficiência das entregas?</p>
+            </div>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Solução</h3>
+            <div class="case-section-content solution-box">
+                <img class="icons" src="../assets/images/icons/idea.png" alt="Emoji de lâmpada">
+                <p>Permitir que o fornecedor relate de maneira proativa se conseguirá entregar os produtos na data agendada. E, caso não possa, sugerir uma nova data de entrega. 
+                <br><br>
+                Garantindo dessa forma, maior agilidade no processo de confirmação do agendamento e permitindo ao time comercial realocar o tempo gasto nesse processo em processos estratégicos para a companhia.</p>
+            </div>
+            <p>A solução foi definida após etapa de discovery, em conjunto com time técnico, PM e time de negócios.</p>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Processo</h3>
+            <div class="case-section-content">
+                <p>A seguir falarei um pouco sobre o processo seguido para realização desta tarefa, porém, por questões de NDA, não poderei entrar em grandes detalhes sobre o negócio ou disponibilizar os protótipo elaborados.</p>
+
+                <h4>Processo de definição:</h4>
+                <p>Para definir como seguir com esta tarefa, primeiramente era necessário conhecer o processo atual profundamente, seus problemas, benefícios, dores e todos os envolvidos no processo. Para tal, uma etapa de <span class="highlight">discovery</span> foi realizada, consistindo em conversas com diferentes pessoas do time comercial, que descreveram em detalhes como a confirmação de agendamento era realizada, além de relatar quais eram as dores sentidas por elas e pelos fornecedores, e quais problemas de abastecimento poderíamos ter no processo vigente.
+                <br><br>
+                Ao total conversei com três analistas de compras, os responsáveis pelo contato com o fornecedor, e comparando os relatos pude obter uma versão completa de como tudo era realizado.
+                <br><br>
+                Na sequência, o próximo passo foi <span class="highlight">consolidar todas as descobertas</span>, a listagem de problemas, e começar a pensar na proposta de solução.
+                <br><br>
+                A Tok&Stok possui um <span class="highlight">Portal do Fornecedor</span>, um sistema que faz interface entre <span class="highlight">área comercial e fornecedores</span>. Porém, até este momento o portal era puramente consultivo, ou seja, os fornecedores conseguiam visualizar as informações sobre os agendamentos, os pedidos emitidos, informações sobre pagamentos, entre outras. Eles não podiam realizar nenhuma ação ativa dentro do sistema.
+                <br><br>
+                Percebendo, juntamente ao PM e ao Tech Lead, o potencial da plataforma, decidiu-se por incluir o processo nele. Os pedidos emitidos ficavam visíveis aos fornecedores e eles conseguiam consultar a data de entrega. Dessa forma, chegamos a conclusão de que a melhor solução para otimizar o processo e diminuir a carga do time comercial, seria incluir uma funcionalidade no sistema, permitindo ao fornecedor confirmar se irá ou não entregar o pedido na data agendada.</p>
+                <p></p>
+
+                <h4>Desenvolvimento da solução:</h4>
+                <ul>
+                    <li>Iniciei o desenvolvimento da solução utilizando <span class="highlight">papel e caneta</span> para rascunhar algumas ideias e conseguir pensar de forma ampla, sem gastar muito tempo. Após algumas definições em papel, me encaminhei para o desenvolvimento do <span class="highlight">wireframe</span>, que foi <span class="highlight">validado com o PM e o time técnico</span>, visando validar a ideia e já verificar a viabilidade técnica;</li>
+                    <br>
+                    <li>A próxima etapa foi desenvolver o <span class="highlight">protótipo de alta fidelidade</span>. Percebemos no time que utilizar um wireframe no teste de usabilidade pode não trazer bons resultados, pois tivemos algumas experiências em que os entrevistados focaram nos aspectos visuais do wireframe, ao invés de focar na funcionalidade que queríamos testar. Dessa forma, para esta tarefa optei por seguir com o protótipo de alta fidelidade.
+                    </li>
+                    <br>
+                    <dd>O protótipo contou com a seguinte jornada: 1. Login; 2. Tela inicial; 3. Acesso à tela de Gerenciar Pedidos; 4. Entrar na aba Confirmações pendentes; 5. Pesquisar pedido desejado (pelo número do pedido, ID do produto ou data de entrega); 6. Clicar no botão Ver detalhes do pedido; 7. Será exibido um modal com a lista de todos os itens que constam no pedido selecionado; 8. Selecionar os itens sobre os quais o fornecedor deseja realizar a ação; 9. Clicar no botão Confirmar todos os itens ou Recusar todos os itens (sendo confirmar o botão primário e recusar o secundário); 10. Se o fornecedor optar pela opção recusar, um novo modal será exibido questionando o motivo da recusa (as opções são alteração de quantidade, falta de matéria-prima, atraso no processo de produção, consolidação de carga, lead time de produção insuficiente); 11. A etapa seguinte a declarar o motivo será sugerir uma nova data de entrega, a ser confirmada pelo time comercial; 12. Modal de sucesso indicando que o agendamento foi cancelado e uma nova data será confirmada pelo time comercial; 13. Caso o fornecedor tenha confirmado o agendamento, ele será encaminhado diretamente para o *modal de sucesso*</dd>
+                    <br>
+                    <li>Realizei <span class="highlight">testes de usabilidade</span>, buscando coletar feedback dos fornecedores em relação a utilização da funcionalidade. O teste de usabilidade contou com a seguinte estrutura:</li>
+
+                    <div id="data-boxes">
+                        <div id="column1">
+                            <div class="case-section-content data-box">5 fornecedores entrevistados</div>
+                            <div class="case-section-content data-box">2 fornecedores de acessórios</div>
+                            <div class="case-section-content data-box">Teste remoto, utilizando a ferramenta Lookback</div>
+                        </div>
+                        <div id="column2">
+                            <div class="case-section-content data-box">30 minutos de duração</div>
+                            <div class="case-section-content data-box">3 fornecedores de móveis</div>
+                            <div class="case-section-content data-box">Download do teste foi feito na ferramenta Dovetail</div>
+                        </div>
+                    </div>
+
+                    <li>Com o teste de usabilidade consegui extrair algumas melhorias:</li>
+                    <br>
+                    <dd>Permitir a confirmação ou recusa de pedidos em massa;</dd>
+                    <br>
+                    <dd>Informar que em caso de recusa do agendamento, os detalhes do pedido estarão disponíveis na aba Agendamentos Recusados.</dd>
+                    <br>
+                    <li>Na sequência, após as alterações resultantes do teste de usabilidade, apresentei o protótipo para a squad, para uma validação técnica final, e posteriormente para os stakeholders, para coleta de feedback e verificar se havia alguma singularidade do processo que não foi abordada e incluída na solução;</li>
+                    <br>
+                    <li>Para o hand off do protótipo de alta fidelidade, costumo compartilhar o link dele, juntamente com todas as imagens necessárias, em alta qualidade. Costumo também fazer alguns apontamentos no protótipo, explicando mais detalhadamente o comportamento de alguns componentes, indicando quais campos são de preenchimento obrigatório, por exemplo;</li>
+                    <br>
+                    <li>Durante o período de desenvolvimento, acompanho o andamento por meio das dailies e, caso haja alguma dúvida ou dificuldade por parte dos desenvolvedores, dou o suporte necessário;</li>
+                    <br>
+                    <li>A estratégia de lançamento contou com um rollout para cinco fornecedores, em que acompanhei os resultados e possíveis dificuldades para ajustes. Após o rollout o lançamento foi realizado de forma faseada para todos os fornecedores ativos.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Resultados</h3>
+            <p>Período de análise: Jul. 2022 - Dez. 2022</p>
+            <div class="case-section-content success-box">
+                <img class="icons" src="../assets/images/icons/check.png" alt="">
+                <div>
+                    <p>85% dos fornecedores ativos acessaram a página</p>
+                </div>
+
+            </div>
+            
+            <div class="case-section-content success-box">
+                <img class="icons" src="../assets/images/icons/check.png" alt="">
+                <p>59,55% dos fornecedores ativos usaram a página</p>
+            </div>
+            
+            <div class="case-section-content success-box">
+                <img class="icons" src="../assets/images/icons/check.png" alt="">
+                <p>50,35% dos produtos tiveram a entrega confirmada</p>
+            </div>
+            
+            <div class="case-section-content success-box">
+                <img class="icons" src="../assets/images/icons/check.png" alt="">
+                <p>Consolidação de carga foi o principal motivo de recusa da data de entrega</p>
+            </div>
+            
+            <div class="case-section-content success-box">
+                <img class="icons" src="../assets/images/icons/check.png" alt="">
+                <p>Atraso no processo de produção foi o segundo principal motivo de recusa</p>
+            </div>
+        </div>
+
+        <div class="case-section">
+            <h3 class="case-section-title">Próximos passos</h3>
+                <ul>
+                    <li>Permitir a <span class="highlight">visualização do histórico de agendamentos</span>: dando mais transparência ao fornecedor sobre quantas vezes o pedido foi reagendado, se foi por solicitação dele ou da Tok&Stok, o motivo do reagendamento e se o reagendamento gerou alguma penalização;</li>
+                    <br><br>
+                    <li>Permitir o <span class="highlight">reagendamento sem interferência do time comercial</span>: a solução atual permite que o fornecedor sugira uma nova data de entrega, que será analisada manualmente pelo time comercial. Este próximo passo permitirá ao fornecedor verificar em quais datas o centro de distruibuição possui capacidade para receber os produtos e agendar, de forma autônoma, uma nova data.</li>
+                </ul>
+        </div>
+        
+    </body>
+</html>
