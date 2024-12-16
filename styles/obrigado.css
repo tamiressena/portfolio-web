@@ -40,7 +40,7 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background-color: var(--blue);
+    background-color: var(--orange);
     border: none;
     color: var(--white);
     font-family: var(--font-title);
@@ -52,7 +52,7 @@ img {
 }
 
 #cta:hover {
-    background-color: var(--blue);
+    background-color: var(--orange);
     cursor: pointer;
 }
 

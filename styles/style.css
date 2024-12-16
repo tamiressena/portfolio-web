@@ -57,7 +57,7 @@ header {
         }
 
             #menu a:hover{
-                color: var(--blue);
+                color: var(--orange);
             }
 
 /* SECTION 1 - BANNER */
@@ -94,7 +94,7 @@ header {
 }
 
 .texto-animado {
-    color: var(--blue);
+    color: var(--orange);
 }
 
 /* SECTION 2 - ABOUT ME */
@@ -122,7 +122,7 @@ header {
         display: flex;
         font-family: var(--font-subtitle);
         font-size: 2rem;
-        color: var(--blue);
+        color: var(--orange);
     }
 
     .section-text {
@@ -146,7 +146,7 @@ header {
         justify-content: center;
         align-items: center;
         border-radius: 8px;
-        background-color: var(--blue);
+        background-color: var(--orange);
         border: none;
         color: var(--white);
         font-family: var(--font-title);
@@ -159,7 +159,7 @@ header {
     }
     
         .cta:hover {
-            background-color: var(--darkblue);
+            background-color: var(--darkorange);
             cursor: pointer;
         }
 
@@ -242,7 +242,7 @@ header {
 }
 
 #soft-skills-title {
-    color: var(--blue);
+    color: var(--orange);
     font-family: var(--font-subtitle);
     font-size: 1.5rem;
 }
@@ -269,7 +269,7 @@ ul {
 }
 
 .section-text span {
-    color: var(--blue);
+    color: var(--orange);
 }
 
 .technology {
@@ -360,7 +360,7 @@ ul {
             line-height: 1.5;
             margin-top: 0;
             margin-bottom: 16px;
-            color: var(--blue);
+            color: var(--orange);
         }
 
         .project-image {
@@ -401,7 +401,7 @@ ul {
             justify-content: center;
             align-items: center;
             border-radius: 8px;
-            background-color: var(--blue);
+            background-color: var(--orange);
             border: none;
             color: var(--white);
             font-family: var(--font-title);
@@ -414,7 +414,7 @@ ul {
         }
 
             .project-button:hover {
-                background-color: var(--darkblue);
+                background-color: var(--darkorange);
                 cursor: pointer;
             }
 
@@ -442,14 +442,14 @@ ul {
     display: flex;
     justify-content: right;
     font-family: var(--font-text);
-    color: var(--blue);
+    color: var(--orange);
     text-decoration: underline;
     margin-top: 0;
     margin-bottom: 3%;
 }
 
 a {
-    color: var(--blue);
+    color: var(--orange);
 }
 
 /* SECTION - ARTICLES AND STUDIES */
@@ -547,7 +547,7 @@ form {
 
 #form input:focus {
     outline: 0;
-    border-color: var(--blue);
+    border-color: var(--orange);
     box-shadow: 2px 2px 5px 0px rgba(237,237,237,1);
 }
 
@@ -570,7 +570,7 @@ form {
 
 #form textarea:focus {
     outline: 0;
-    border-color: var(--blue);
+    border-color: var(--orange);
     box-shadow: 2px 2px 5px 0px rgba(237,237,237,1);
 }
 
@@ -586,7 +586,7 @@ form {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background-color: var(--blue);
+    background-color: var(--orange);
     border: none;
     color: var(--white);
     font-family: var(--font-title);
@@ -599,7 +599,7 @@ form {
 }
 
 #form-button:hover {
-        background-color: var(--darkblue);
+        background-color: var(--darkorange);
         cursor: pointer;
     }
 
@@ -641,7 +641,7 @@ footer p {
 }
 
 .highlight {
-    color: var(--blue);
+    color: var(--orange);
 }
 
 /* RESPONSIVIDADE TABLET */
@@ -718,7 +718,7 @@ footer p {
         }
 
         #about-me-subtitle {
-            color: var(--blue);
+            color: var(--orange);
             font-size: 1.5rem;
         }
 

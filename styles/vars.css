@@ -9,11 +9,8 @@
 :root {
     --white: #FBFBF2;
     --gray: #EBD8D0;
-    /* --blue: #020070; */
-    /* --blue: #359ee5; */
-    --blue: #fd761b;
-    --darkblue: #f47709;
-    /* --darkblue: #0076c5; */
+    --orange: #fd761b;
+    --darkorange: #e9720a;
     --black: #080F0F;
     --darkgray: #1c2128d3;
 

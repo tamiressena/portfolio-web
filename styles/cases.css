@@ -71,7 +71,7 @@ header {
         }
 
             #menu a:hover{
-                color: var(--blue);
+                color: var(--orange);
             }
 
 .case-title {
@@ -101,7 +101,7 @@ header {
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 0 20%;
-    color: var(--blue);
+    color: var(--orange);
 }
 
 .case-section {
@@ -142,7 +142,7 @@ header {
     align-items: center;
     padding: 2%;
     border-radius: 8px;
-    color: var(--blue);
+    color: var(--orange);
     background-color: rgba(212, 212, 212, 0.253);
 }
 
@@ -240,7 +240,7 @@ header {
 }
 
 .highlight {
-    color: var(--blue);
+    color: var(--orange);
     text-decoration: none;
 }
 
@@ -310,7 +310,7 @@ header {
             line-height: 1.5;
             margin-top: 0;
             margin-bottom: 16px;
-            color: var(--blue);
+            color: var(--orange);
         }
 
         .project-image {
@@ -351,7 +351,7 @@ header {
             justify-content: center;
             align-items: center;
             border-radius: 8px;
-            background-color: var(--blue);
+            background-color: var(--orange);
             border: none;
             color: var(--white);
             font-family: var(--font-title);
@@ -364,7 +364,7 @@ header {
         }
 
             .project-button:hover {
-                background-color: var(--darkblue);
+                background-color: var(--darkorange);
                 cursor: pointer;
             }
 
@@ -392,14 +392,14 @@ header {
     display: flex;
     justify-content: right;
     font-family: var(--font-text);
-    color: var(--blue);
+    color: var(--orange);
     text-decoration: underline;
     margin-top: 0;
     margin-bottom: 3%;
 }
 
 a {
-    color: var(--blue);
+    color: var(--orange);
 }
 
 
@@ -479,7 +479,7 @@ a {
         }
 
         #about-me-subtitle {
-            color: var(--blue);
+            color: var(--orange);
             font-size: 1.5rem;
         }
 
