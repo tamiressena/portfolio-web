@@ -66,7 +66,6 @@ header {
     display: block;
     width: 100%;
     height: auto;
-    /* height: 500px; */
 }
 
 .text-banner {
@@ -115,7 +114,7 @@ header {
         font-size: 2.75rem;
         display: flex;
         justify-content: center;
-        margin-top: 4%;
+        margin: 4% 0 3%;
     }
 
     #about-me-subtitle {
@@ -123,6 +122,7 @@ header {
         font-family: var(--font-subtitle);
         font-size: 2rem;
         color: var(--orange);
+        margin: 0;
     }
 
     .section-text {
@@ -130,6 +130,14 @@ header {
         font-size: 1.125rem;
         font-weight: 400;
         line-height: 1.5;
+        margin: 0;
+    }
+
+    #about-me-text {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin: 0;
     }
 
     #buttoms {
@@ -201,7 +209,6 @@ header {
 /* SECTION - WORK PROCESS */
 #process {
     padding: 0 10%;
-    margin-bottom: 5%;
 }
 
 #process-description {
@@ -233,6 +240,7 @@ header {
     font-family: var(--font-title);
     font-size: 2rem;
     text-transform: uppercase;
+    margin: 5% 0 3%;
 }
 
 #section-content {
@@ -289,7 +297,6 @@ ul {
 #technologies {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%;
     padding: 0 10%;
     gap: 40px;
     justify-content: center;
@@ -305,14 +312,13 @@ ul {
 
 /* SECTION 3 - PROJECTS */
 .projects-cards {
-    margin: 0px 10%;
+    margin: 0px 10% 2%;
     padding: 2%;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
-    margin-bottom: 1%;
     gap: 24px;
     background-color: #EBD8D0;
     transition: 0.3s;
@@ -605,15 +611,15 @@ form {
 
 #social {
     display: flex;
-    gap: 16px;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 56px;
 }
 
 #social h4 {
     font-size: 1rem;
     font-weight: 500;
+    margin: 0;
 }
 
 #social img {
@@ -668,13 +674,13 @@ footer p {
     #articles-cards {
         display: flex;
         flex-direction: column;
+        gap: 24px;
     }
 
     .articles-row {
         display: flex;
         width: 100%;
         gap: 24px;
-        margin-bottom: 24px;
     }
 
     .article-card {
@@ -701,7 +707,9 @@ footer p {
 
 /* SECTION 2 - ABOUT ME */
 #about-me {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
     #presentation {
@@ -789,7 +797,7 @@ footer p {
 /* SECTION 2 - SKILLS */
 .section-subtitle {
     font-size: 1.5rem;
-    margin: 10% 0 0 0;
+    margin: 12% 0 0 0;
     padding: 0;
 }
 
@@ -873,20 +881,16 @@ footer p {
 #articles-studies {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 24px;
     padding: 0 5%;
-}
-
-.section-subtitle {
-    margin-bottom: 24px;
 }
 
 #articles-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
     margin: 0;
+    padding: 0;
 }
 
     .article-card {
