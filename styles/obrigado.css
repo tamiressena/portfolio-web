@@ -36,6 +36,7 @@ img {
     display: flex;
     width: 218px;
     height: 48px;
+    margin: 5vh;
     padding: 20px 48px;
     justify-content: center;
     align-items: center;

@@ -109,6 +109,12 @@ header {
     color: var(--orange);
 }
 
+.card-categorie {
+    justify-content: flex-start;
+    margin-top: 0;
+    padding: 0;
+}
+
 .case-section {
     margin: 0;
     padding: 0 20%;
@@ -382,6 +388,24 @@ header {
             text-transform: uppercase;
         }
 
+.images-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: flex-start;
+    margin: 24px 0;
+
+}
+
+.images-mobile img {
+    width: 250px;
+    max-width: 250px;
+}
+
+.legenda {
+    font-size: 12px;
+}
+
 #portfolio-link {
     padding: 0px 10%;
     display: flex;
@@ -480,6 +504,12 @@ h4 {
 
 .success-box {
     margin: 16px 0;
+}
+
+
+.images-mobile img {
+    height: 280px;
+    width: auto;
 }
 }
 
@@ -674,6 +704,16 @@ h4 {
 
     .project-technologies {
         gap: 8px;
+    }
+
+    .images-mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images-mobile img {
+        width: 100vw;
+        height: auto;
     }
 
 /* SECTION - ARTICLES AND STUDIES */

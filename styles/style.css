@@ -343,6 +343,7 @@ ul {
 
         .card-content {
             width: 100%;
+            gap: 12px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -686,6 +687,8 @@ footer p {
     .article-card {
         width: 46%;
     }
+
+
 }
 
 /* RESPONSIVIDADE MOBILE */
@@ -872,6 +875,10 @@ footer p {
     .project-techs-image {
         height: 24px;
     }
+
+.card-content {
+    gap: 0;
+}
 
 /* SECTION - ARTICLES AND STUDIES */
 .articles-row {
