@@ -225,6 +225,7 @@ header {
 
 .images-desk-mobile {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -406,6 +407,10 @@ header {
     font-size: 12px;
 }
 
+.images-autocomplete {
+    height: 51.5vh;
+}
+
 #portfolio-link {
     padding: 0px 10%;
     display: flex;
@@ -510,6 +515,10 @@ h4 {
 .images-mobile img {
     height: 280px;
     width: auto;
+}
+
+.images-autocomplete {
+    height: 33vh;
 }
 }
 
@@ -757,7 +766,6 @@ h4 {
 #form-button {
     width: 295px;
 }
-}
 
 /* CASES */
 .project-techs-image {
@@ -810,3 +818,4 @@ h4 {
     padding: 0 5%;
 }
 
+}
