@@ -426,6 +426,13 @@ a {
     color: var(--orange);
 }
 
+.full-image img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
 /* FOOTER */
 footer {
     display: flex;
